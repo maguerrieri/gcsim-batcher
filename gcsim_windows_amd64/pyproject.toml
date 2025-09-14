@@ -1,6 +1,6 @@
 [project]
 name = "gcsim-windows-amd64"
-version = "0.1.2"
+version = "2.38.3"
 description = "Add your description here"
 readme = "README.md"
 authors = [
