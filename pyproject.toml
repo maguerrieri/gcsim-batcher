@@ -6,8 +6,8 @@ readme = "README.md"
 authors = []
 requires-python = ">=3.13"
 dependencies = [
-    "gcsim-linux-amd64 ; platform_machine == 'x86_64' and sys_platform == 'linux'",
-    "gcsim-windows-amd64 ; platform_machine == 'AMD64' and sys_platform == 'win32'",
+    "gcsim-linux-amd64==2.38.3 ; platform_machine == 'x86_64' and sys_platform == 'linux'",
+    "gcsim-windows-amd64==2.38.3 ; platform_machine == 'AMD64' and sys_platform == 'win32'",
     "yamlcore>=0.0.4",
 ]
 

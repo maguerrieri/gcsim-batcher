@@ -32,8 +32,8 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "gcsim-linux-amd64", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
-    { name = "gcsim-windows-amd64", marker = "platform_machine == 'AMD64' and sys_platform == 'win32'" },
+    { name = "gcsim-linux-amd64", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'", specifier = "==2.38.3" },
+    { name = "gcsim-windows-amd64", marker = "platform_machine == 'AMD64' and sys_platform == 'win32'", specifier = "==2.38.3" },
     { name = "yamlcore", specifier = ">=0.0.4" },
 ]
 
@@ -42,20 +42,20 @@ dev = [{ name = "pytest", specifier = ">=8.4.1" }]
 
 [[package]]
 name = "gcsim-linux-amd64"
-version = "0.1.0"
+version = "2.38.3"
 source = { registry = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/simple/" }
-sdist = { url = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/gcsim-linux-amd64/gcsim_linux_amd64-0.1.0.tar.gz", hash = "sha256:94168d635c097aee450aaa0f346a6dfeb7b6a7318bdb4ddf076cc5db4a543309" }
+sdist = { url = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/gcsim-linux-amd64/gcsim_linux_amd64-2.38.3.tar.gz", hash = "sha256:ac608952fdd190c0a3b1815d7ba8616e5c5f63fd687a7261bc528ddc457163f7" }
 wheels = [
-    { url = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/gcsim-linux-amd64/gcsim_linux_amd64-0.1.0-py3-none-any.whl", hash = "sha256:15203c9200476f9aedd798e663fe8d8b5866bee4f2dcc452884ee855f1960fe6" },
+    { url = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/gcsim-linux-amd64/gcsim_linux_amd64-2.38.3-py3-none-any.whl", hash = "sha256:a4ec5e6135cc38804b9fbc34787a12c9fad3848bbb2392beb41b241b67aade6f" },
 ]
 
 [[package]]
 name = "gcsim-windows-amd64"
-version = "0.1.0"
+version = "2.38.3"
 source = { registry = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/simple/" }
-sdist = { url = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/gcsim-windows-amd64/gcsim_windows_amd64-0.1.0.tar.gz", hash = "sha256:a8ba094b860433efca45820c3b7baa654a23911145d1cc287efc23c05acd06fe" }
+sdist = { url = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/gcsim-windows-amd64/gcsim_windows_amd64-2.38.3.tar.gz", hash = "sha256:cb569ccf02930ddf5b75785a5c427d0a632da5cb1cb6af375d417b96c0079cca" }
 wheels = [
-    { url = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/gcsim-windows-amd64/gcsim_windows_amd64-0.1.0-py3-none-any.whl", hash = "sha256:79c24c85eee612f23e60413b0fa14a9d94e4e04c936167eee82a7be85ec42fa8" },
+    { url = "https://us-west1-python.pkg.dev/gaymer-haus/python-public/gcsim-windows-amd64/gcsim_windows_amd64-2.38.3-py3-none-any.whl", hash = "sha256:57dbe4a0931fc240c9a0ef14c27a4a4c1321068060106e69375011be0e081f76" },
 ]
 
 [[package]]
